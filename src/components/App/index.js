@@ -19,7 +19,7 @@ class App extends Component {
       <Header/>
       <div className="App">
       <Switch>
-        <Route path='/'component={Home} />
+        <Route path='/'component={Home}  exact />
         <Route path='/about'component={About}/>
         <Route path='/portfolio'component={Portfolio}/>
         <Route path='/contact'component={Contact}/>

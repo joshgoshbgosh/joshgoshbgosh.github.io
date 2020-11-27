@@ -1,0 +1,38 @@
+.outer-div {
+  display:flex;
+  justify-content: space-between;
+  border-top: solid;
+  border-bottom: solid;
+  border-top-width: thin;
+  border-bottom-width: thin;
+  
+}
+
+.photos >img {
+
+  width: 250px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.photos {
+
+padding-left: 40px;
+padding-right: 40px;
+margin-top: 45px;
+}
+.p-div {
+  width:600px;
+  padding-left: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.about-me {
+  font-size: 20px;
+  font-weight: 500;
+}
+.fawesome-div > a {
+  font-size: 30px;
+  margin: 30px;
+  margin-bottom: 20px;
+  color:#6BCFFF;
+}
