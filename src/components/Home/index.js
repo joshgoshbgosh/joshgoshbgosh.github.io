@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import joshhome from './../../images/joshhome.jpg';
 import './index.css';
 
 class Home extends Component {
@@ -8,6 +9,10 @@ class Home extends Component {
     return(
 
       <div>
+
+        <div className="photo-div">
+          <h2 className="fullstack">FULL STACK DEVEL<span className="the-o">O</span>PER</h2>
+        </div>
       </div>
     );
   }

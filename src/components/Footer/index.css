@@ -1,4 +1,26 @@
 footer {
   background-color:  #F9F9F9;
-  height: 40px;
+
+}
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-name {
+  font-size: 22px;
+  font-weight: 150;
+  letter-spacing: 7px;
+  margin-right: 20px;
+  margin-top: 14px;
+}
+.f-awesome {
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.fa-linkedin {
+  margin-left: 35px;
+}
+.fa-envelope {
+  margin-left: 35px;
 }

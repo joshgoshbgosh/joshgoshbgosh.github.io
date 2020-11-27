@@ -1,0 +1,17 @@
+
+.photo-div {
+  background-image: url(./../../images/joshhome.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+.fullstack {
+  font-size: 60px;
+  font-weight: 200;
+  letter-spacing: 5px;
+  padding-top: 130px;
+
+
+}

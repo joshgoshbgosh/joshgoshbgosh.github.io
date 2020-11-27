@@ -19,12 +19,13 @@ class App extends Component {
       <Header/>
       <div className="App">
       <Switch>
-        <Route path='/'component={Home}/>
+        <Route path='/home'component={Home} />
         <Route path='/about'component={About}/>
         <Route path='/portfolio'component={Portfolio}/>
         <Route path='/contact'component={Contact}/>
 
       </Switch>
+
       </div>
       <Footer/>
       </React.Fragment>

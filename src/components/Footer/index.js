@@ -7,11 +7,16 @@ class Footer extends Component {
   render() {
     return(
 
-      <Footer>
+      <div className="footer-div">
+      <div className="f-awesome">
+      <i class="fab fa-github"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fas fa-envelope"></i>
+      </div>
         <div>
         <p className="footer-name">J<span className="the-o">O</span>SH LANIER</p>
         </div>
-      </Footer>
+      </div>
     );
   }
 
