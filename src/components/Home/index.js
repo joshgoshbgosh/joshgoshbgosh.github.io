@@ -13,6 +13,10 @@ class Home extends Component {
         <div className="photo-div">
           <h2 className="fullstack">FULL STACK DEVEL<span className="the-o">O</span>PER</h2>
         </div>
+
+        <div className="connect">
+          
+        </div>
       </div>
     );
   }

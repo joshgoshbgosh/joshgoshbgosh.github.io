@@ -3,6 +3,7 @@
   background-image: url(./../../images/joshhome.jpg);
 
   background-size: cover;
+  
   background-repeat: no-repeat;
   height: 350px;
 }
@@ -14,4 +15,20 @@
   padding-top: 130px;
 
 
+}
+.plain-div {
+  background-color: #F9F9F9;
+  height: 100px;
+}
+.connect {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+.lets-connect {
+  font-size: 30px;
+  letter-spacing: 8px;
+  font-weight: 250;
+  margin-left: 40px;
+  margin-top: 30px;
 }
