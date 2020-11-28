@@ -1,34 +1,51 @@
 .outer-div {
-  display:flex;
-  justify-content: space-between;
+  background-image: url(./../../images/about3.jpg);
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  height: 100%;
+  /* display:flex;
+
+
   border-top: solid;
   border-bottom: solid;
   border-top-width: thin;
-  border-bottom-width: thin;
-  
+  border-bottom-width: thin; */
+
 }
 
 .photos >img {
 
-  width: 250px;
-  margin: 10px;
+  width: 100%;
+  margin:2px;
+
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .photos {
+display: flex;
 
 padding-left: 40px;
-padding-right: 40px;
-margin-top: 45px;
+padding-right: 50px;
+margin-top: 26px;
+width: 500px;
 }
 .p-div {
-  width:600px;
-  padding-left: 40px;
-  margin-top: 20px;
-  margin-left: 20px;
+  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-left: 25px;
+  padding-right:25px;
+
+
+  /* padding-left: 40px; */
+
 }
 .about-me {
+
   font-size: 20px;
   font-weight: 500;
+  line-height: 50px;
+
 }
 .fawesome-div > a {
   font-size: 30px;

@@ -7,15 +7,15 @@ footer {
   justify-content: space-between;
 }
 .footer-name {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 150;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   margin-right: 20px;
   margin-top: 14px;
 }
 .f-awesome {
   font-size: 30px;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 10px;
   color: #6BCFFF;
 }
@@ -28,7 +28,7 @@ footer {
 
 }
 .fa-linkedin {
-  margin-left: 35px;
+  margin-left: 20px;
   color: black;
 
 }
@@ -37,7 +37,7 @@ footer {
 
 }
 .fa-envelope {
-  margin-left: 35px;
+  margin-left: 20px;
   color: black;
 
 }
