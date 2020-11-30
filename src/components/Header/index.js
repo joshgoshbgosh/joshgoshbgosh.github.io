@@ -19,9 +19,9 @@ function Header(props){
 
         <Nav>
           <Nav.Link className="nav-link nav-home" href='/'>H<span className="the-o">O</span>ME</Nav.Link>
-          <Nav.Link className="nav-link nav-about" href={'/about'}>AB<span className="the-o">O</span>UT</Nav.Link>
-          <Nav.Link className="nav-link nav-portfolio" href={`/portfolio`}>P<span className="the-o">O</span>RTF<span className="the-o">O</span>LI<span className="the-o">O</span></Nav.Link>
-          <Nav.Link className="nav-link nav-contact" href={'/contact'}>C<span className="the-o">O</span>NTACT</Nav.Link>
+          <Nav.Link className="nav-link nav-about" href={'/#/about'}>AB<span className="the-o">O</span>UT</Nav.Link>
+          <Nav.Link className="nav-link nav-portfolio" href={`/#/portfolio`}>P<span className="the-o">O</span>RTF<span className="the-o">O</span>LI<span className="the-o">O</span></Nav.Link>
+          <Nav.Link className="nav-link nav-contact" href={'/#/contact'}>C<span className="the-o">O</span>NTACT</Nav.Link>
         </Nav>
 
     </Navbar.Collapse>
