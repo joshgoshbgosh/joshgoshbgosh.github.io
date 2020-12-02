@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 import './index.css';
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
 import glow from './../../images/glow.png';
-import pixalperfect from './../../images/pixalperfect.png';
+import pixelperfect from './../../images/pixelperfect.png';
+import sk8 from './../../images/sk8.png';
 
 class Portfolio extends Component {
 
@@ -27,9 +28,9 @@ class Portfolio extends Component {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src={pixalperfect} />
+    <Card.Img variant="top" src={pixelperfect} />
     <Card.Body>
-      <Card.Title>PIXAL PERFECT</Card.Title>
+      <Card.Title>PIXEL PERFECT</Card.Title>
       <Card.Text>
       A mock up recreation using CSS/HTML
       </Card.Text>
@@ -39,15 +40,15 @@ class Portfolio extends Component {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={sk8} />
     <Card.Body>
-      <Card.Title>NEWS APP </Card.Title>
+      <Card.Title>SK8</Card.Title>
       <Card.Text>
-    A News Article App
+     Mock up design using Bootstrap/CSS/HTML
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-    <Card.Link href="#">Card Link</Card.Link>
+    <Card.Link href="#">View Code</Card.Link>
     </Card.Footer>
   </Card>
 </CardDeck>
